@@ -73,6 +73,7 @@ class ItemEffect extends PluginBase implements Listener
                     if ($array["message"] != null) {
 
                         $player->sendMessage($array["message"]);
+                        $player->sendMessage("Yes);
 
                     }
 
